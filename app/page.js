@@ -250,6 +250,170 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+    {/* 50+ Beautiful Rooms Inspiration Section */}
+<div className="bg-[#FCF8F3] py-16 px-8">
+  <h2 className="text-black text-[28px] sm:text-[32px] md:text-[36px] font-bold text-center mb-6">
+    50+ Beautiful Rooms Inspiration
+  </h2>
+  <p className="text-black text-[14px] sm:text-[16px] md:text-[18px] text-center max-w-3xl mx-auto mb-8">
+    Get inspired by our curated collection of stunning room designs. From cozy living spaces to elegant bedrooms, find the perfect ideas to elevate your home.
+  </p>
+  <div className="flex overflow-x-scroll scrollbar-hide space-x-6 px-4">
+  
+    <div className="flex-shrink-0 w-[300px] transform transition-all hover:scale-110 hover:shadow-2xl hover:translate-y-[-8px] hover:cursor-pointer">
+      <img
+        src="/room1.png"
+        alt="Room Inspiration 1"
+        className="w-full h-[250px] sm:h-[300px] md:h-[350px] object-cover rounded-lg shadow-md"
+      />
+      <p className="mt-4 text-black text-lg font-medium text-center">
+        Modern Living Room
+      </p>
+    </div>
+    <div className="flex-shrink-0 w-[300px] transform transition-all hover:scale-110 hover:shadow-2xl hover:translate-y-[-8px] hover:cursor-pointer">
+      <img
+        src="/room2.png"
+        alt="Room Inspiration 2"
+        className="w-full h-[250px] sm:h-[300px] md:h-[350px] object-cover rounded-lg shadow-md"
+      />
+      <p className="mt-4 text-black text-lg font-medium text-center">
+        Elegant Bedroom
+      </p>
+    </div>
+    <div className="flex-shrink-0 w-[300px] transform transition-all hover:scale-110 hover:shadow-2xl hover:translate-y-[-8px]  hover:cursor-pointer">
+      <img
+        src="/room3.png"
+        alt="Room Inspiration 3"
+        className="w-full h-[250px] sm:h-[300px] md:h-[350px] object-cover rounded-lg shadow-md"
+      />
+      <p className="mt-4 text-black text-lg font-medium text-center">
+        Cozy Dining Room
+      </p>
+    </div>
+    <div className="flex-shrink-0 w-[300px] transform transition-all hover:scale-110 hover:shadow-2xl hover:translate-y-[-8px]  hover:cursor-pointer">
+      <img
+        src="/room4.png"
+        alt="Room Inspiration 4"
+        className="w-full h-[250px] sm:h-[300px] md:h-[350px] object-cover rounded-lg shadow-md"
+      />
+      <p className="mt-4 text-black text-lg font-medium text-center">
+        Chic Office Space
+      </p>
+    </div>
+  </div>
+</div>
+
+   {/* House to Home Section */}
+<section className="py-16 bg-gray-50">
+  <div className="container mx-auto text-center px-4">
+    <h2 className="text-2xl md:text-3xl font-semibold text-gray-800">
+      Share your setup with{' '}
+      <span className="text-indigo-600 font-bold">#HouseToHome</span>
+    </h2>
+    <div className="mt-8 flex justify-center">
+      <img 
+        src="/ShareImage.png"  
+        alt="House to Home setups"
+        className="rounded-lg shadow-lg object-contain transition-transform duration-500 ease-in-out hover:scale-105 hover:shadow-2xl"
+        style={{ maxWidth: '100%', height: 'auto' }}
+      />
+    </div>
+  </div>
+</section> 
+
+ {/* Testimonial Section */}
+<div className="bg-gray-100 py-16 px-8">
+  <h2 className="text-black text-[28px] sm:text-[32px] md:text-[36px] font-bold text-center mb-6">
+    "Customer Blessings"
+  </h2>
+  <p className="text-gray-700 text-[14px] sm:text-[16px] md:text-[18px] text-center max-w-3xl mx-auto mb-8">
+    Hear from our satisfied customers who have transformed their spaces with our designs.
+  </p>
+
+  <div className="flex overflow-x-auto space-x-6 px-4 scrollbar-hide">
+    
+    <div className="flex-shrink-0 bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 w-[300px] sm:w-[350px] md:w-[400px]">
+      <p className="text-gray-600 text-[14px] sm:text-[16px] italic mb-4">
+        "The designs are absolutely stunning! My living room looks straight out of a magazine now."
+      </p>
+      <div className="flex items-center space-x-4">
+        <img
+          src="/testimonial1.png"
+          alt="Customer 1"
+          className="w-12 h-12 rounded-full object-cover"
+        />
+        <div>
+          <p className="text-black font-medium">Rohit</p>
+          <p className="text-gray-500 text-sm">Interior Enthusiast</p>
+        </div>
+      </div>
+      <div className="mt-4 flex justify-center">
+        <span className="text-yellow-500 text-2xl">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+      </div>
+    </div>
+
+    <div className="flex-shrink-0 bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 w-[300px] sm:w-[350px] md:w-[400px]">
+      <p className="text-gray-600 text-[14px] sm:text-[16px] italic mb-4">
+        "This was the best decision ever! My bedroom has never been so cozy and beautiful."
+      </p>
+      <div className="flex items-center space-x-4">
+        <img
+          src="/testimonial2.png"
+          alt="Customer 2"
+          className="w-12 h-12 rounded-full object-cover"
+        />
+        <div>
+          <p className="text-black font-medium">Michael Brown</p>
+          <p className="text-gray-500 text-sm">Homeowner</p>
+        </div>
+      </div>
+      <div className="mt-4 flex justify-center">
+        <span className="text-yellow-500 text-2xl">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+      </div>
+    </div>
+
+    <div className="flex-shrink-0 bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 w-[300px] sm:w-[350px] md:w-[400px]">
+      <p className="text-gray-600 text-[14px] sm:text-[16px] italic mb-4">
+        "I’m so impressed with the quality of designs and the service. Highly recommend!"
+      </p>
+      <div className="flex items-center space-x-4">
+        <img
+          src="/testimonial3.png"
+          alt="Customer 3"
+          className="w-12 h-12 rounded-full object-cover"
+        />
+        <div>
+          <p className="text-black font-medium">Emily Davis</p>
+          <p className="text-gray-500 text-sm">Happy Customer</p>
+        </div>
+      </div>
+      <div className="mt-4 flex justify-center">
+        <span className="text-yellow-500 text-2xl">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+      </div>
+    </div>
+
+    <div className="flex-shrink-0 bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 w-[300px] sm:w-[350px] md:w-[400px]">
+      <p className="text-gray-600 text-[14px] sm:text-[16px] italic mb-4">
+        "The designs are absolutely stunning! My living room looks straight out of a magazine now."
+      </p>
+      <div className="flex items-center space-x-4">
+        <img
+          src="/testimonial1.png"
+          alt="Customer 1"
+          className="w-12 h-12 rounded-full object-cover"
+        />
+        <div>
+          <p className="text-black font-medium">Rohit</p>
+          <p className="text-gray-500 text-sm">Interior Enthusiast</p>
+        </div>
+      </div>
+      <div className="mt-4 flex justify-center">
+        <span className="text-yellow-500 text-2xl">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+      </div>
+    </div>
+  </div>
+</div>  
     </>
   );
 }
