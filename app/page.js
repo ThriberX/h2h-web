@@ -364,7 +364,7 @@ export default function Home() {
           className="w-12 h-12 rounded-full object-cover"
         />
         <div>
-          <p className="text-black font-medium">Michael Brown</p>
+          <p className="text-black font-medium">Rohit</p>
           <p className="text-gray-500 text-sm">Homeowner</p>
         </div>
       </div>
@@ -384,7 +384,7 @@ export default function Home() {
           className="w-12 h-12 rounded-full object-cover"
         />
         <div>
-          <p className="text-black font-medium">Emily Davis</p>
+          <p className="text-black font-medium">Rohit</p>
           <p className="text-gray-500 text-sm">Happy Customer</p>
         </div>
       </div>
@@ -414,6 +414,70 @@ export default function Home() {
     </div>
   </div>
 </div>  
+
+<div>
+<div className="relative w-full h-auto bg-[#353434] overflow-hidden">
+  <img
+    src="/review.png"
+    alt="Furniture Review"
+    className="w-full h-auto"
+  />
+</div>
+
+      {/* Subscription Section */}
+      <div className="mt-10 bg-black py-8">
+        <div className="container mx-auto px-6 md:px-12 lg:px-20 flex flex-col md:flex-row items-center justify-between">
+          <p className="text-lg text-gray-300 mb-4 md:mb-0">
+            Subscribe to get attractive offers on our products
+          </p>
+          <div className="flex">
+            <input
+              type="email"
+              placeholder="E.g. youremail@mail.com"
+              className="p-3 rounded-l-lg text-gray-800 focus:outline-none"
+            />
+            <button className="bg-red-600 hover:bg-red-700 text-white font-bold px-5 py-3 rounded-r-lg">
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+
+      {/* Footer Section */}
+      <footer className="bg-black text-white mt-10 py-8">
+        <div className="container mx-auto px-6 md:px-12 lg:px-20 grid grid-cols-1 md:grid-cols-3 gap-8">
+
+          <div>
+            <h3 className="text-xl font-bold mb-4">HouseToHome.</h3>
+            <p className="text-gray-300">
+              Varanasi
+            </p>
+          </div>
+         
+          <div>
+            <h4 className="text-lg font-bold mb-4">Links</h4>
+            <ul className="space-y-2">
+              <li>Home</li>
+              <li>Shop</li>
+              <li>About</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+        
+          <div>
+            <h4 className="text-lg font-bold mb-4">Help</h4>
+            <ul className="space-y-2">
+              <li>Address</li>
+              <li>Returns</li>
+              <li>Privacy Policies</li>
+            </ul>
+          </div>
+        </div>
+        <div className="border-t border-black mt-8 pt-6 text-center text-gray-500">
+          2024 H2H. All rights reserved.
+        </div>
+      </footer>
+    </div>
     </>
   );
 }
