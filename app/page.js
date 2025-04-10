@@ -440,7 +440,7 @@ export default function Home() {
               Subscribe
             </button>
           </div>
-        </div>
+        </div>  
       </div>
 
       {/* Footer Section */}
